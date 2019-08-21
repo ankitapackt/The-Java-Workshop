@@ -2,7 +2,7 @@ package com.packtpub.recursion;
 
 public class Fibonacci {
 
-    // Gnerates the value for this number
+    // Generates the value for this number
     public static int fibonacci(int number) {
         if (number == 0) {
             return number;
@@ -15,7 +15,7 @@ public class Fibonacci {
 
     public static void main(String[] args) {
 
-        for (int i = 0; i < 17; i++) {
+        for (int i = 0; i < 15; i++) {
             System.out.println(fibonacci(i));
         }
     }
